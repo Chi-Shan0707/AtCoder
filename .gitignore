@@ -1,0 +1,17 @@
+# Compiled objects and binaries
+*.o
+*.out
+outDebug
+
+# Build directories
+build/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test data (large)
+AHC*/test/
