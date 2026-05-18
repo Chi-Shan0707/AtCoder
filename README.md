@@ -24,10 +24,3 @@ AHCxxx/
 |---|---------|---------|------------|
 | [037](./AHC037/) | 11th Asprova Programming Contest | Soda | -- |
 
-## Build
-
-```bash
-g++ -O2 -std=c++23 -o sol AHC037/soda.cpp
-./sol < AHC037/test/input.txt > AHC037/test/output.txt
-python3 AHC037/tools/verify.py AHC037/test/input.txt AHC037/test/output.txt
-```
