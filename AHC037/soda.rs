@@ -54,7 +54,7 @@ fn main() {
     let mut ans = Vec::new();
 
     // 闭包代替全局 blend 函数
-    let mut blend = |x: i64, y: i64, ans: &mut Vec<(Soda, Soda)>| {
+    let blend = |x: i64, y: i64, ans: &mut Vec<(Soda, Soda)>| {
         let mut cnt = 2_000_000_007_i64; // (2e9+7)
         for soda in &sodas {
             if soda.x <= x && soda.y <= y {
